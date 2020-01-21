@@ -34,3 +34,16 @@ public:
   }
 
 };
+int main()
+{
+    int x;
+    cout<<"\nEnter values";
+    cin>>x;
+    factorial f1(x);
+    f1.calculate();
+    f1.display();
+    factorial f2(f1);
+    f2.calculate();
+    f2.display();
+    return 0;
+}
