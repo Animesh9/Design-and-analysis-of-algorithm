@@ -15,3 +15,22 @@ public:
         n=x.n;
         fact=1;
     }
+    void calculate()
+    {
+        for(i=1;i<=n;i++)
+        {
+            fact=fact*i;
+        }
+    }
+    void display()
+    {
+        cout<<"\n Factorial: "<<fact;
+    }
+
+  ~factorial()
+  {
+
+      cout<<"\nDestructor is called";
+  }
+
+};
