@@ -1,3 +1,5 @@
+#include<iostream>
+using namespace std;
 int main()
 {
     int a[50], n ,i ,j ,temp;
@@ -18,3 +20,8 @@ int main()
             }
         }
     }
+    cout<<"array after sort";
+    for(i=0;i<n;++i)
+        cout<<" "<<a[i];
+
+}
