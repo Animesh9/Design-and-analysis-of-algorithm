@@ -39,6 +39,7 @@ int main()
     int x;
     cout<<"\nEnter values";
     cin>>x;
+    //Calling factorial function
     factorial f1(x);
     f1.calculate();
     f1.display();
