@@ -7,7 +7,7 @@ int main()
     cin>>n;
     cout<<"array elements";
     for (i=0;i<n;++i)
-        cin >> a[i];
+        cin >> a[i];    //Sorting algorithm
     for(i=1;i<n;++i)
     {
         for(j=0;j<(n-i);++j)
@@ -20,7 +20,7 @@ int main()
             }
         }
     }
-    cout<<"array after sort";
+    cout<<"array after sort";   //printing array after sorting
     for(i=0;i<n;++i)
         cout<<" "<<a[i];
 
