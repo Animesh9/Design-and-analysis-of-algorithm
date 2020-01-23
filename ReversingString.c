@@ -11,4 +11,15 @@ int main()
     n = str;
     printf("Entered number %s\n",n);
     printf("After reversing string is =%s\n",strrev(n));
+    printf("Number to convert: %s\n",n);
+    for(i=0;n>0;i++)
+    {
+        a[i]=n%2;
+        n=n/2;
+    }
+    printf("\nBinary = ");
+    for(i=i-1;i>=0;i--)
+    {
+        printf("%d",a[i]);
+    }
 }
