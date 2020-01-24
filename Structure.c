@@ -6,7 +6,7 @@ struct DevOps
     char n[15];
     int sc;
 };
-
+//.....main.....
 int main()
 {
     struct DevOps s1;
