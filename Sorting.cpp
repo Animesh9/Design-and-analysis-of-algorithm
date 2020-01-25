@@ -21,6 +21,7 @@ int partition (int arr[], int low, int high)
     swap(&arr[i + 1], &arr[high]);
     return (i + 1);
 }
+//....quicksort....
 void quickSort(int arr[], int low, int high)
 {
     if (low < high)
@@ -37,6 +38,7 @@ void printArray(int arr[], int size)
         cout << arr[i] << " ";
     cout << endl;
 }
+//....main....
 int main()
 {
     int arr[] = {10, 7, 8, 9, 1, 5};
