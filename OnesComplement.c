@@ -23,4 +23,11 @@ int main()
             break;
         }
     }
+    oc[SIZE]='\0';
+    if(e==0)
+    {
+        printf("Original binary = %s\n",b);
+        printf("Ones complement = %s",oc);
+    }
+
 }
