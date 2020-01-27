@@ -6,6 +6,7 @@ int main()
     int i, e=0;
     printf("Enter %d binary values: ",SIZE);
     gets(b);
+    //...Ones Complement...
     for(i=0;i<SIZE;i++)
     {
         if(b[i]=='1')
@@ -23,6 +24,7 @@ int main()
             break;
         }
     }
+    //...Print....
     oc[SIZE]='\0';
     if(e==0)
     {
