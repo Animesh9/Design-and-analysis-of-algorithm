@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define SIZE 10
+//...Main...
 int main()
 {
     char b[SIZE+1], oc[SIZE+1];
