@@ -2,6 +2,13 @@
 #include<math.h>
 int btog(long int);
 int main()
+{
+    long int bin, gray;
+    printf("Enter a binary number: ");
+    scanf("%ld",&bin);
+    gray=btog(bin);
+    printf("The gray code of the binary number %ld is %ld\n",bin,gray);
+}
 int btog(long int bin)
 {
     int a,b,res=0,i=0;
