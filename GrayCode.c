@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int btog(long int);
+//...main...
 int main()
 {
     long int bin, gray;
@@ -9,6 +10,7 @@ int main()
     gray=btog(bin);
     printf("The gray code of the binary number %ld is %ld\n",bin,gray);
 }
+//...Gray Code...
 int btog(long int bin)
 {
     int a,b,res=0,i=0;
