@@ -6,6 +6,7 @@ int main()
      cout << "Enter number of potatoes in each belt ";
         cin >> n;
         int belt[6][n];
+    //...Finding rotten potatoes...
     for(int i=0; i<6; i++)
     {
         cout << "Belt-"<<i+1;
@@ -21,6 +22,7 @@ int main()
         for(int j=0; j<n; j++)
             cout << belt[i][j]<<endl;
     }
+    //...Printing Number Of Rotten And Right Potatoes in Conveyer Belt ....
     cout<<"right potatoes"<<c1<<endl;
     cout<<"rotten potatoes"<<c2;
 
