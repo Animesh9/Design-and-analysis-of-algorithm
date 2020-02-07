@@ -4,7 +4,7 @@
 #define MAX 10
 
 int dijkstra(int G[MAX][MAX],int n,int start);
-
+//....Main....
 int main()
 {
 	int G[MAX][MAX],i,j,n,u;
@@ -22,6 +22,7 @@ int main()
 
 	return 0;
 }
+//....Dijkstra's Algorithm....
 int dijkstra(int G[MAX][MAX],int n,int start)
 {
 	int cost[MAX][MAX],distance[MAX],pred[MAX];
@@ -38,7 +39,7 @@ int dijkstra(int G[MAX][MAX],int n,int start)
 		pred[i]=start;
 		visited[i]=0;
 	}
-
+	
 	distance[start]=0;
 	visited[start]=1;
 	count=1;
