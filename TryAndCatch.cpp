@@ -10,7 +10,7 @@ int main()
       if (x < 0) 
       { 
          throw x; 
-         cout << "After throw (Never executed) \n"; 
+         cout << "After throw \n"; 
       } 
    } 
    catch (int x ) 
@@ -18,6 +18,6 @@ int main()
       cout << "Exception Caught \n"; 
    } 
   
-   cout << "After catch (Will be executed) \n"; 
+   cout << "After catch \n"; 
    return 0; 
 } 
