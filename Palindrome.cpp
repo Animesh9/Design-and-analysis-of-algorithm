@@ -4,7 +4,7 @@ int main()
 {
     int n, remainder, ori;
     int rev = 0;
-    cout<<"Enter an integer: ;
+    cout<<"Enter an integer: ";
     cin>>n;
     ori = n;
     while (n != 0) {
@@ -13,8 +13,8 @@ int main()
         n /= 10;
     }
     if (ori== rev)
-        cout<<"%d is a palindrome."<< ori;
+        cout<<ori<<" is a palindrome.";
     else
-        cout<<"%d is not a palindrome."<< ori;
+        cout<< ori <<" is not a palindrome.";
     return 0;
 }
