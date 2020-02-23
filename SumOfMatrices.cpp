@@ -12,5 +12,13 @@ void main ()
         for(j=0;j<=2;j++)
         cin>>B[i][j];
     //......Sum Of Matrices........
-
+    for(i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+    {
+        C[i][j]=A[i][j]+B[i][j];
+        cout<<C[i][j] <<"\t",;
+    }
+    cout<<"\n";
+    }
 }
