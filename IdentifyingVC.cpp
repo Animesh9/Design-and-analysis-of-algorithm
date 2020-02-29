@@ -18,6 +18,6 @@ int main( )
 
         b++;
     }
-    cout<<c;
+    cout<<c<<endl;
     cout<<d;
 }
