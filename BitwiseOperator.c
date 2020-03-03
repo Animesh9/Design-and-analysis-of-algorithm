@@ -34,3 +34,7 @@ int main()
     calculate_the_maximum(n, k);
     return 0;
 }
+
+
+
+//Hackerrank Code For Bitwise Operator.
