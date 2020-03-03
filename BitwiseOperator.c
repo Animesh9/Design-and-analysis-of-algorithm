@@ -9,7 +9,10 @@ void calculate_the_maximum(int n, int k)
     int maxXor = 0;
     for (int i=1; i<=n; i++) 
     {
-        
+        for (int j=i+1; j<=n; j++) 
+        {
+            
+        }
     }
     printf("%d\n%d\n%d\n", maxAnd, maxOr, maxXor);
 }
