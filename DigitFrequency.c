@@ -16,3 +16,6 @@ int main()
         printf("%d ", *(nums+i));
     return 0;
 }
+
+
+// HackerRank Code ... 
