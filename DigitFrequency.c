@@ -5,11 +5,11 @@
 
 int main() 
 {
-    int* nums = (int*) malloc(10 * sizeof(int));
+    int* nums = (int*) malloc(10 * sizeof(int));  //malloc 
     char c;    
     for(int i = 0; i < 10; i++)
         *(nums+i) = 0;
-    while(scanf("%c", &c) == 1)
+    while(scanf("%c", &c) == 1)   // While Loop
         if(c >= '0' && c <= '9')
             (*(nums+(c-'0')))++;
     for(int i = 0; i < 10; i++)
